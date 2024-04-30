@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page</title>
+   <!-- Favicons -->
+   <link href="assets/img/logo.png" rel="icon">
+   <link href="assets/img/logo.png" rel="apple-touch-icon">
+ 
+   <!-- Vendor CSS Files -->
+   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+ 
+   <!-- Template Main CSS File -->
+   <link href="assets/css/style.css" rel="stylesheet">
+ 
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .signup-container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .signup-container h2 {
+      text-align: center;
+    }
+
+    .signup-container form {
+      margin-top: 20px;
+    }
+
+    .signup-container input[type="text"],
+    .signup-container input[type="email"],
+    .signup-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .signup-container input[type="submit"] {
+      width: 100%;
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .signup-container input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .signup-container p {
+      margin-top: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+ <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <h1 class="logo"><a href="index.html">Basit Iqbal Dar</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="index.html#work">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="Login.html">LOGIN</a></li>
+          <li><a class="nav-link scrollto" href="sign.html">SIGN UP</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+
+
+  <div class="signup-container">
+    <h2>Sign Up</h2>
+    <form action="#" method="post">
+      <input type="text" name="fullname" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+      <input type="submit" value="Sign Up">
+    </form>
+    <p>Already have an account? <a href="Login.html">Login</a></p>
+  </div>
+
+<hr>
+
+
+
+   <footer>
+    
+   </footer>
+</body>
+</html>
